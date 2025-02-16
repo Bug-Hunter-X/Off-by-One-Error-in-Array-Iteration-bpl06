@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java when iterating over arrays.  The `bug.java` file contains the erroneous code, while `bugSolution.java` provides the corrected version.  The error occurs because the loop condition `i <= arr.length` should be `i < arr.length`.  Array indices in Java are zero-based, so the valid indices range from 0 to arr.length - 1.
